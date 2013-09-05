@@ -129,6 +129,7 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\font\fontawesome-webfont.svg" />
     <Content Include="Content\images\bg_timeline-line.png" />
+    <Content Include="Content\images\bildetweb.png" />
     <Content Include="Content\images\chic.png" />
     <Content Include="Content\images\chic2.png" />
     <Content Include="Content\images\ds.png" />
