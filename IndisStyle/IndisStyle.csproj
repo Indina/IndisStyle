@@ -157,12 +157,19 @@
     <Content Include="Content\images\u.PNG" />
     <Content Include="Content\indisStyle.css" />
     <Content Include="Content\screen_preview.css" />
+    <Content Include="Content\style.css">
+      <DependentUpon>style.less</DependentUpon>
+    </Content>
+    <Content Include="Content\style.min.css">
+      <DependentUpon>style.less</DependentUpon>
+    </Content>
     <Content Include="Content\theme-style.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\font\fontawesome-webfont.woff" />
     <Content Include="Content\font\fontawesome-webfont.ttf" />
     <Content Include="Content\font\fontawesome-webfont.eot" />
     <Content Include="Content\font\FontAwesome.otf" />
+    <Content Include="Content\style.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <None Include="Scripts\jquery-1.9.1-vsdoc.js" />
     <Content Include="Scripts\233905874.js" />
