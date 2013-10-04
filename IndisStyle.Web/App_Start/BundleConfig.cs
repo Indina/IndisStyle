@@ -9,7 +9,7 @@ namespace IndisStyle.Web
             // Force optimization to be on or off, regardless of web.config setting
             //BundleTable.EnableOptimizations = false;
             bundles.UseCdn = false;
-       
+
             // .debug.js, -vsdoc.js and .intellisense.js files 
             // are in BundleTable.Bundles.IgnoreList by default.
             // Clear out the list and add back the ones we want to ignore.
@@ -20,37 +20,38 @@ namespace IndisStyle.Web
 
             // Modernizr goes separate since it loads first
             bundles.Add(new ScriptBundle("~/bundles/modernizr")
-                .Include("~/Scripts/modernizr-{version}.js"));
+                .Include("~/Scripts/modernizr-{version}.js", "~/Scripts/plugins/retina/js/retina-{version}.js"));
 
             // jQuery
-            bundles.Add(new ScriptBundle("~/bundles/jquery", 
+            bundles.Add(new ScriptBundle("~/bundles/libs",
                 "//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js")
-                .Include("~/Scripts/jquery-{version}.js"));
+                .Include("~/Scripts/jquery-{version}.js", "~/Scripts/bootstrap.js")
+                .Include("~/Scripts/plugins/flexslider/jquery.flexslider-min.js",
+                "~/Scripts/plugins/jPanelMenu/jquery.jpanelmenu.min.js",
+                "~/Scripts/plugins/flexslider/jquery.flexslider-min.js",
+                "~/Scripts/plugins/jRespond/js/jRespond.js",
+                "~/Scripts/plugins/onePageNav/jquery.nav.js",
+                "~/Scripts/script.js"
 
-            // 3rd Party JavaScript files
-            bundles.Add(new ScriptBundle("~/bundles/jsextlibs")
-                //.IncludeDirectory("~/Scripts/lib", "*.js", searchSubdirectories: false));
-                .Include(
-                    "~/Scripts/bootstrap.js"
 
-                    ));
-          
 
-            // All application JS files (except mocks)
-            bundles.Add(new ScriptBundle("~/bundles/jslibs")
-                .IncludeDirectory("~/Scripts/libs/", "*.js", searchSubdirectories: true));
+                ));
+
+
+
 
             // 3rd Party CSS files
             bundles.Add(new StyleBundle("~/Content/css")
-                .IncludeDirectory("~/Content/libs/","*.css",searchSubdirectories:false)
                 .Include(
                     "~/Content/bootstrap/bootstrap.css",
-                    "~/Content/bootstrap/bootstrap-theme.css",
-                    "~/Content/font-awesome.css",
-                    "~/Content/font-awesome-ie7.css",
+                    "~/Content/css/font-awesome.css",
+                    "~/Scripts/plugins/flexslider/flexslider.css",
+                    "~/Content/css/theme-style.css",
+                    "~/Content/css/alternative-colour.css",
+                    "~/Content/css/custom-style.css",
                     "~/Content/style.css"));
 
-          
+
         }
     }
 }
