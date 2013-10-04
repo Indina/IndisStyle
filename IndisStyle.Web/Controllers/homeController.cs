@@ -29,7 +29,7 @@ namespace IndisStyle.Web.Controllers
             return View();
         }
 
-        public ActionResult Arkiv()
+        public ActionResult Portfolio()
         {
             return View();
         }

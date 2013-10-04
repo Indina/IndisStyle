@@ -70,7 +70,7 @@
                         <li><a href="~/home">Hjem</a></li>
                         <li><a href="~/home/omMeg">Om meg</a></li>
                         <li><a href="~/home/arbeidsform">Kravspek</a></li>
-                        <li><a href="~/home/arkiv">Arkiv</a></li>
+                        <li><a href="~/home/portfolio">Portfolio</a></li>
                         <li><a href="~/home/prisliste">Prisliste</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -79,37 +79,42 @@
     </div>
 
 
+    <div id="content">
 
-    @RenderBody()
-   
+        @RenderBody()
 
-
-
-
-    <div id="content ">
-
-        @Scripts.Render(
-        "~/bundles/libs"
-    )
         </div>
 
 
+
         <!-- region: Footer -->
+
         <footer id="footer">
             <div class="container">
                 <div class="row-fluid pull-center">
+                    <h4 style="color:#fff"><i class="icon-envelope"></i> indina@hotmail.no</h4><h4 style="color:#fff"><i class="icon-mobile-phone"></i> 94138558</h4>
+
+
+
                     <div class="social-media">
-                        <a href="#"><i class="icomoon-twitter-3"></i></a>
-                        <a href="#"><i class="icomoon-facebook-3"></i></a>
-                        <a href="#"><i class="icomoon-google-plus-4"></i></a>
-                        <a href="#"><i class="icomoon-dribbble-3"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/indina.smith"><i class="icon-facebook-sign"></i></a>
+                        <a target="_blank" href="https://twitter.com/IndisStyle"><i class="icon-twitter-sign"></i></a>
+                        <a target="_blank" href="https://github.com/Indina"><i class="icon-github-alt"></i></a>
+
                     </div>
-                    <p><a href="elements.htm">Theme UI Elements</a> / <a class="colour" data-colour="alternative">Alternative Colour Scheme</a></p>
-                    <!--todo: replace with company copyright details-->
-                    <p>Copyright 2013 &copy; <a href="http://themelize.me">Themelize.me</a></p>
+
+
                 </div>
             </div>
         </footer>
+
+
+
+
+
+    @Scripts.Render(
+        "~/bundles/libs"
+    )
 
 </body>
 </html>

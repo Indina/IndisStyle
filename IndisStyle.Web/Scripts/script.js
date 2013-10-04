@@ -165,7 +165,7 @@ $(document).ready(function() {
       maxItems: $(this).data('max-items') || 1,
       multipleKeyboard: true,
       start: function(slider){
-        slider.addClass('slider-safe-hide'); //slider loaded to safe to hide
+        //slider.addClass('slider-safe-hide'); //slider loaded to safe to hide
         
         if (autoStartOff === true) {
           slider.flexslider("pause");
