@@ -105,6 +105,10 @@
     <Content Include="Content\font\fontawesome-webfont.svg" />
     <Content Include="Content\font\icomoon.dev.svg" />
     <Content Include="Content\font\icomoon.svg" />
+    <Content Include="Content\images\arrows.png" />
+    <Content Include="Content\images\bg-heading.png" />
+    <Content Include="Content\images\bg-text.png" />
+    <Content Include="Content\images\bg4.png" />
     <Content Include="Content\images\bg_timeline-line.png" />
     <Content Include="Content\images\bildetweb.png" />
     <Content Include="Content\images\chic.png" />
@@ -130,6 +134,7 @@
     <Content Include="Content\images\portfolio_blocks2.png" />
     <Content Include="Content\images\profilbildet.png" />
     <Content Include="Content\images\qetr.png" />
+    <Content Include="Content\images\slider-image.png" />
     <Content Include="Content\images\u.PNG" />
     <Content Include="Content\img\backgrounds\faces%402x.jpg" />
     <Content Include="Content\img\backgrounds\faces.jpg" />
@@ -418,6 +423,13 @@
     <Content Include="Scripts\plugins\onePageNav\multiple.htm" />
     <Content Include="Scripts\plugins\onePageNav\non-existing.htm" />
     <Content Include="Scripts\plugins\onePageNav\top.htm" />
+    <Content Include="Scripts\plugins\parallelslider\jquery.cslider.js" />
+    <Content Include="Scripts\plugins\parallelslider\parallax-slider.css">
+      <DependentUpon>parallax-slider.less</DependentUpon>
+    </Content>
+    <Content Include="Scripts\plugins\parallelslider\parallax-slider.min.css">
+      <DependentUpon>parallax-slider.less</DependentUpon>
+    </Content>
     <Content Include="Scripts\plugins\respond\cross-domain\example.html" />
     <Content Include="Scripts\plugins\respond\cross-domain\respond-proxy.html" />
     <Content Include="Scripts\plugins\respond\cross-domain\respond.proxy.gif" />
@@ -503,6 +515,7 @@
     <Content Include="Scripts\script.min.js.map">
       <DependentUpon>script.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\plugins\parallelslider\parallax-slider.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
