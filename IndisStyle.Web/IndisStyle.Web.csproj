@@ -500,7 +500,6 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\home\Index2.cshtml" />
-    <Content Include="Views\_LayoutPage - Old.cshtml" />
     <Content Include="Scripts\script.min.js.map">
       <DependentUpon>script.js</DependentUpon>
     </Content>

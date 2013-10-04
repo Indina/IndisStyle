@@ -41,7 +41,7 @@ namespace IndisStyle.Web
 
 
             // 3rd Party CSS files
-            bundles.Add(new StyleBundle("~/Content/css")
+            bundles.Add(new StyleBundle("~/Styles/css")
                 .Include(
                     "~/Content/bootstrap/bootstrap.css",
                     "~/Content/css/font-awesome.css",
