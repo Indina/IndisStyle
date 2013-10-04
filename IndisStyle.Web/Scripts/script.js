@@ -182,6 +182,9 @@ $(document).ready(function() {
 
     currentFlexslider.flexslider(sliderSettings);
   });
+
+    //parallax-slider
+    $('#da-slider').cslider();
   
   //projects display
   var fullView = $('#full-view');

@@ -31,6 +31,7 @@ namespace IndisStyle.Web
                 "~/Scripts/plugins/flexslider/jquery.flexslider-min.js",
                 "~/Scripts/plugins/jRespond/js/jRespond.js",
                 "~/Scripts/plugins/onePageNav/jquery.nav.js",
+                "~/Scripts/plugins/parallelslider/jquery.cslider.js",
                 "~/Scripts/script.js"
 
 
@@ -46,6 +47,7 @@ namespace IndisStyle.Web
                     "~/Content/bootstrap/bootstrap.css",
                     "~/Content/css/font-awesome.css",
                     "~/Scripts/plugins/flexslider/flexslider.css",
+                    "~/Scripts/plugins/parallelslider/parallax-slider.css",
                     "~/Content/css/theme-style.css",
                     "~/Content/css/alternative-colour.css",
                     "~/Content/css/custom-style.css",
