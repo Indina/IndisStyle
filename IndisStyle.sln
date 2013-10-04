@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndisStyle", "IndisStyle\IndisStyle.csproj", "{ED2BA3A8-ECFA-4C51-BDF2-5D8DF3E92593}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndisStyle.Web", "IndisStyle.Web\IndisStyle.Web.csproj", "{784D5517-092C-40EE-85D2-8C07DC488111}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED2BA3A8-ECFA-4C51-BDF2-5D8DF3E92593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED2BA3A8-ECFA-4C51-BDF2-5D8DF3E92593}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED2BA3A8-ECFA-4C51-BDF2-5D8DF3E92593}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED2BA3A8-ECFA-4C51-BDF2-5D8DF3E92593}.Release|Any CPU.Build.0 = Release|Any CPU
 		{784D5517-092C-40EE-85D2-8C07DC488111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{784D5517-092C-40EE-85D2-8C07DC488111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784D5517-092C-40EE-85D2-8C07DC488111}.Release|Any CPU.ActiveCfg = Release|Any CPU
