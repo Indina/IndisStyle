@@ -118,6 +118,9 @@
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Content\images\hvaigjør.PNG" />
+    <Content Include="Content\images\icon_logo%402x.png" />
+    <Content Include="Content\images\icon_logo.png" />
+    <Content Include="Content\images\icon_logo2.png" />
     <Content Include="Content\images\indisstyle.png" />
     <Content Include="Content\images\indisstyle_logo.svg" />
     <Content Include="Content\images\indisstyle_logo2.gif" />
@@ -125,9 +128,15 @@
     <Content Include="Content\images\indisstyle_logo3.gif" />
     <Content Include="Content\images\indisstyle_logo4.png" />
     <Content Include="Content\images\logoindis1.1.png" />
+    <Content Include="Content\images\mini-1.png" />
+    <Content Include="Content\images\mini-2.png" />
+    <Content Include="Content\images\mini-3.png" />
     <Content Include="Content\images\moldeby.png" />
+    <Content Include="Content\images\portfol1.png" />
+    <Content Include="Content\images\portfol3.png" />
     <Content Include="Content\images\portfolio_blocks1.png" />
     <Content Include="Content\images\portfolio_blocks2.png" />
+    <Content Include="Content\images\portfol2.png" />
     <Content Include="Content\images\profilbildet.png" />
     <Content Include="Content\images\qetr.png" />
     <Content Include="Content\images\u.PNG" />
@@ -499,7 +508,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\home\Index2.cshtml" />
     <Content Include="Scripts\script.min.js.map">
       <DependentUpon>script.js</DependentUpon>
     </Content>

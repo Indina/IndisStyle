@@ -2054,16 +2054,16 @@ h3.title-divider {
 }
 .navbar-brand h1 a {
   display: block;
-  width: 155px;
-  height: 50px;
+  width: 270px;
+  height: 70px;
   text-indent: -1000000px;
-  background-image: url('/Content/img/misc/icon_logo.png');
-  background-size: 155px 50px;
+  background-image: url('/Content/images/icon_logo.png');
+  background-size: 270px 70px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .navbar-brand h1 a {
-    background-image: url('/Content/img/misc/icon_logo@2x.png');
-    background-size: 155px 50px;
+    background-image: url('/Content/images/icon_logo@2x.png');
+    background-size: 270px 70px;
   }
 }
 .navbar-brand h1 a:hover {
@@ -2099,9 +2099,9 @@ h3.title-divider {
     margin: 20.5px 0;
   }
   .navbar-brand h1 a {
-    width: 230px;
-    height: 74px;
-    background-size: 230px, 74px !important;
+    width: 270px;
+    height: 70px;
+    background-size: 270px, 70px !important;
   }
   #main-menu li a {
     height: 115px;
