@@ -57,8 +57,8 @@
 /* @section 1.2 icomoon icons */
 @font-face {
   font-family: 'IcoMoon';
-  src: url('../font/icomoon.eot');
-  src: url('../font/icomoon.eot?#iefix') format('embedded-opentype'), url('../font/icomoon.svg#IcoMoon') format('svg'), url('../font/icomoon.woff') format('woff'), url('../font/icomoon.ttf') format('truetype');
+  src: url('/Content/font/icomoon.eot');
+  src: url('/Content/font/icomoon.eot?#iefix') format('embedded-opentype'), url('/Content/font/icomoon.svg#IcoMoon') format('svg'), url('/Content/font/icomoon.woff') format('woff'), url('/Content/font/icomoon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

@@ -33,17 +33,17 @@
  * 
  ******************************************************/
 .alternative .navbar-brand h1 a {
-  background-image: url('../img/misc/icon_logo-alt.png');
+  background-image: url('~/Content/img/misc/icon_logo-alt.png');
   background-size: 155px 50px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .navbar-brand h1 a {
-    background-image: url('../img/misc/icon_logo-alt@2x.png');
+    background-image: url('~/Content/img/misc/icon_logo-alt@2x.png');
     background-size: 155px 50px;
   }
 }
 .alternative.ie8 .navbar-brand h1 a {
-  background: url('../img/misc/icon_logo-ie-alt.png') center center no-repeat;
+  background: url('~/Content/img/misc/icon_logo-ie-alt.png') center center no-repeat;
 }
 .alternative .navbar {
   border-color: #002017;
@@ -1016,72 +1016,72 @@
   background-color: #002017;
 }
 .alternative .service-agile {
-  background-image: url('../img/services/service-agile-alt.png');
+  background-image: url('~/Content/img/services/service-agile-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-agile {
-    background-image: url('../img/services/service-agile-alt@2x.png');
+    background-image: url('~/Content/img/services/service-agile-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-backend {
-  background-image: url('../img/services/service-backend-alt.png');
+  background-image: url('~/Content/img/services/service-backend-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-backend {
-    background-image: url('../img/services/service-backend-alt@2x.png');
+    background-image: url('~/Content/img/services/service-backend-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-css3 {
-  background-image: url('../img/services/service-css3-alt.png');
+  background-image: url('~/Content/img/services/service-css3-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-css3 {
-    background-image: url('../img/services/service-css3-alt@2x.png');
+    background-image: url('~/Content/img/services/service-css3-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-drupal {
-  background-image: url('../img/services/service-drupal-alt.png');
+  background-image: url('~/Content/img/services/service-drupal-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-drupal {
-    background-image: url('../img/services/service-drupal-alt@2x.png');
+    background-image: url('~/Content/img/services/service-drupal-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-html5 {
-  background-image: url('../img/services/service-html5-alt.png');
+  background-image: url('~/Content/img/services/service-html5-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-html5 {
-    background-image: url('../img/services/service-html5-alt@2x.png');
+    background-image: url('~/Content/img/services/service-html5-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-pm {
-  background-image: url('../img/services/service-pm-alt.png');
+  background-image: url('~/Content/img/services/service-pm-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-pm {
-    background-image: url('../img/services/service-pm-alt@2x.png');
+    background-image: url('~/Content/img/services/service-pm-alt@2x.png');
     background-size: 100px 100px;
   }
 }
 .alternative .service-wordpress {
-  background-image: url('../img/services/service-wordpress-alt.png');
+  background-image: url('~/Content/img/services/service-wordpress-alt.png');
   background-size: 100px 100px;
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .alternative .service-wordpress {
-    background-image: url('../img/services/service-wordpress-alt@2x.png');
+    background-image: url('~/Content/img/services/service-wordpress-alt@2x.png');
     background-size: 100px 100px;
   }
 }
