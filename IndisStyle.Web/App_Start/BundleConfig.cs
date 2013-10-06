@@ -51,6 +51,7 @@ namespace IndisStyle.Web
                     "~/Content/css/theme-style.css",
                     "~/Content/css/alternative-colour.css",
                     "~/Content/css/custom-style.css",
+                    "~/Content/css/style_responsive.css",
                     "~/Content/style.css"));
 
 
