@@ -138,6 +138,7 @@
     <Content Include="Content\images\icon_logo.png" />
     <Content Include="Content\images\icon_logo2.png" />
     <Content Include="Content\images\icon_logo3.png" />
+    <Content Include="Content\images\imageresp.png" />
     <Content Include="Content\images\indisstyle.png" />
     <Content Include="Content\images\indisstyle_logo.svg" />
     <Content Include="Content\images\indisstyle_logo2.gif" />
@@ -146,6 +147,7 @@
     <Content Include="Content\images\indisstyle_logo4.png" />
     <Content Include="Content\images\ipad.png" />
     <Content Include="Content\images\iphone.png" />
+    <Content Include="Content\images\kravspek.png" />
     <Content Include="Content\images\logoindis1.1.png" />
     <Content Include="Content\images\macbook.png" />
     <Content Include="Content\images\middle.png" />
@@ -169,9 +171,11 @@
     <Content Include="Content\images\slide1.png" />
     <Content Include="Content\images\slide2.png" />
     <Content Include="Content\images\slider-image.png" />
+    <Content Include="Content\images\slider.png" />
     <Content Include="Content\images\stand-out-of-crowd.jpg" />
     <Content Include="Content\images\stand-out.jpg" />
     <Content Include="Content\images\standout.png" />
+    <Content Include="Content\images\tjenester.png" />
     <Content Include="Content\images\u.PNG" />
     <Content Include="Content\images\umbrella-crop.jpg" />
     <Content Include="Content\images\umbrella.jpg" />
