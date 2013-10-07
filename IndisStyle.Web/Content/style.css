@@ -86,3 +86,8 @@ section.work {
 .secondary-focus {
   color: #d6daf5 !important;
 }
+.sider-liste > li {
+  font-size: 16px;
+  color: #597090;
+  line-height: 28.7px;
+}
