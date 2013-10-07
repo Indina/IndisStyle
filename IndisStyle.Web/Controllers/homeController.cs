@@ -33,7 +33,7 @@ namespace IndisStyle.Web.Controllers
         {
             return View();
         }
-        public ActionResult Prisliste()
+        public ActionResult Tjenester()
         {
             return View();
         }

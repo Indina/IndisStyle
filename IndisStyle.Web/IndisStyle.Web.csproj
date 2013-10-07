@@ -499,7 +499,7 @@
     <Content Include="Views\home\Index.cshtml" />
     <Content Include="Views\home\lagenkravspek.cshtml" />
     <Content Include="Views\home\OmMeg.cshtml" />
-    <Content Include="Views\home\Prisliste.cshtml" />
+    <Content Include="Views\home\Tjenester.cshtml" />
     <Content Include="Scripts\plugins\flexslider\demo\fonts\webfonts\geo-medium\eot\1110FC_0.eot" />
     <Content Include="Scripts\plugins\flexslider\demo\fonts\webfonts\geo-medium\ttf\1110FC_0.ttf" />
     <Content Include="Scripts\plugins\flexslider\demo\fonts\webfonts\geo-medium\woff\1110FC_0.woff" />
