@@ -2062,7 +2062,7 @@ h3.title-divider {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .navbar-brand h1 a {
-    background-image: url('/Content/images/icon_logo@2x.png');
+    background-image: url('/Content/images/icon_logo2.png');
     background-size: 270px 70px;
   }
 }
