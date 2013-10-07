@@ -99,7 +99,9 @@ section.work {
     margin-left: -7%;
   }
 }
-.da-slide h2,
-.da-slide p {
-  margin-left: 15px;
+@media (max-width: 480px) {
+  .da-slide h2,
+  .da-slide p {
+    margin-left: 15px;
+  }
 }
