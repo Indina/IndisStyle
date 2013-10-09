@@ -28,7 +28,6 @@ namespace IndisStyle.Web
                 .Include("~/Scripts/jquery-{version}.js", "~/Scripts/bootstrap.js")
                 .Include("~/Scripts/plugins/flexslider/jquery.flexslider-min.js",
                 "~/Scripts/plugins/jPanelMenu/jquery.jpanelmenu.min.js",
-                "~/Scripts/plugins/flexslider/jquery.flexslider-min.js",
                 "~/Scripts/plugins/jRespond/js/jRespond.js",
                 "~/Scripts/plugins/onePageNav/jquery.nav.js",
                 "~/Scripts/plugins/parallelslider/jquery.cslider.js",
